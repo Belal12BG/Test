@@ -17,7 +17,7 @@ function App() {
         { path: "about", element: <About></About> },
         { path: "portfolio", element: <Portofolio></Portofolio> },
         { path: "contact", element: <Contatct></Contatct> },
-        { path: "NotFound", element: <NotFound></NotFound> },
+        { path: "*", element: <NotFound></NotFound> },
       ],
     },
   ]);
